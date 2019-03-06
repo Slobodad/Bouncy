@@ -1,0 +1,66 @@
+// teams
+
+.teams {
+    padding-top: 80px;
+    // padding-bottom: 0px;
+    background-color: #fff;
+
+
+    &__text {
+        padding-bottom: 65px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        padding-bottom: 40px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #333b46;
+    }
+
+    &__subtitle {
+        width: 485px;
+        text-align: center;
+        line-height: 1.78;
+        letter-spacing: 0.05em;
+        color: #81868e;
+    }
+
+    &__slider {
+        display: flex !important;
+        justify-content: space-around;
+        padding-bottom: 135px;
+    }
+
+    &__description {
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__name {
+        padding-bottom: 10px;
+        letter-spacing: 0.04em;
+        color: #464646;
+    }
+
+    &__position {
+        padding-bottom: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-style: italic;
+        letter-spacing: 0.1em;
+        color: #81868e;
+    }
+
+    &__about-me {
+        width: 385px;
+        text-align: right;
+        line-height: 1.78;
+        letter-spacing: 0.05em;
+        color: #81868e;
+    }
+
+}

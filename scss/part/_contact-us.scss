@@ -1,0 +1,34 @@
+// contact-us
+
+.contact-us {
+    padding-top: 75px;
+    padding-bottom: 70px;
+    background-color: #fff;
+
+    &__text {
+        padding-bottom: 70px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        padding-bottom: 40px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #333b46;
+    }
+
+    &__subtitle {
+        width: 550px;
+        text-align: center;
+        line-height: 1.78;
+        letter-spacing: 0.05em;
+        color: #81868e;
+    }
+}
+
+#map {
+    height: 440px;
+
+  }

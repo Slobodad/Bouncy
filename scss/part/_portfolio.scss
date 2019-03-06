@@ -1,0 +1,75 @@
+//portfolio
+
+.portfolio {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    background-color: #f3f3f3;
+
+    &__text{
+        padding-bottom: 75px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        padding-bottom: 40px;
+        font-weight: 300;
+        letter-spacing: 0.2em;
+        color: #333b46;
+    }
+
+    &__subtitle {
+        width: 465px;
+        padding-bottom: 80px;
+        text-align: center;
+        line-height: 1.78;
+        letter-spacing: 0.05em;
+        color: #81868e;
+    }
+
+    &__menu {
+        display: flex;
+        
+    }
+
+    &__items {
+        margin-right: 30px;
+        
+        
+    }
+
+        button {
+            padding-bottom: 15px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            background-color: #f3f3f3;
+            outline: transparent;
+            color: #464646; 
+
+            &:hover {
+                border-bottom: 2px solid #19bd9a;
+            }
+        }
+
+    &__list {
+        width: 100%;
+
+    }
+
+    &__elements {
+        width: 270px;
+        display: flex;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    
+    }
+
+
+
+}
+

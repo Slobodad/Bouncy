@@ -1,0 +1,31 @@
+// footer
+
+.footer {
+    padding-bottom: 68px;
+    background-color: #fff;
+
+    &__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    &__title {
+        padding-bottom: 25px;
+
+    }
+
+    &__copywrite {
+        padding-bottom: 40px;
+        line-height: 1.78;
+        letter-spacing: 0.05em;
+        color: #81868e;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        margin-right: 10px;
+    }
+}
